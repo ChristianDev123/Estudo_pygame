@@ -10,7 +10,7 @@ O repositório foi feito com o obejtivo de registrar os meus avanços nesta tecn
 ## Observações:
 > O estudo de tal tecnologia faz parte do desenvolvimento de um projeto do curso técnico de Desenvolvimento de Sistemas, Senai Suiço-Brasileiro.
 
-> Tal projeto, anteriormente citado, trata-se de um simples jogo da velha, feito com interface gráfica e utilização de terminal, e a uma subcamada de lógica de programação Para ver o projeto clique aqui.
+> Tal projeto, anteriormente citado, trata-se de um simples jogo da velha, feito com interface gráfica e utilização de terminal, e a uma subcamada de lógica de programação Para ver o projeto [clique aqui](https://github.com/ChristianDev123/Jogo_Velha_Pygame).
 
 > ### Professor:
 > - Júlio Favero;
