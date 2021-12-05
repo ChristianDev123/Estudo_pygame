@@ -1,0 +1,44 @@
+Primeiro Passo (Obrigatório):
+    Antes de mais nada:
+        import pygames as <nome substituto da biblioteca> - chama a biblioteca para o programa e declara o nome a ser usado;
+        import sys - biblioteca do próprio python
+        <nome>.init() - Inicia a execução da biblioteca;
+        <nome>.display.set_mode("dimensões da tela, respectivamente, largura e altura") - cria uma tela/ambiente; OBS: crie uma tupla com os valores nesta ordem.
+    Em loop Infinito para identificar eventos:
+        <nome>.event.get() - Retorna eventos que acontecem na tela;
+        <nome>.QUIT - termina o loop da biblioteca;
+        sys.exit() - termina a execução do sistema;
+Códigos Opcionais:
+    Desenhando formas:
+        <nome>.draw.line(<var tela>,"cor em RGB","posição Inicial","posição Final","tamanho da linha");
+        <nome>.draw.circle(<var tela>, "cor em RGB", "posição na tela_XY","raio do círculo") - Desenha um círculo na Tela;
+        <nome>.draw.rect(<varTela>,"cor em RGB","posição na tela_XY") - Desenha um retângulo na tela;
+        <var tela>.set_at("posição na tela_XY","cor em RGB") - Pinta píxel por píxel na tela.
+    Tratamento de Imagens:
+        <var imagem> = <nome>.image.load("endereço de imagem") - carrega uma imagem para a tela criada pelo display.set_mode();
+        <var imagem>.get_rect() - Inicia tratamento na imagem para ser utilizada em animações;
+        <var Imagem Tratada>.move("array velocidade ida e volta") - determina velocidade do item na tela;
+        <var Imagem Tratada>.<direção(left, right, bottom, top)> - retorna valor da posição onde o item está;
+        <nome>.transform.scale(<var Imagem>,"tamanho lagura", "tamanho altura") - define dimensão da imagem
+    Tratamento da tela:
+        <var tela>.fill("código cor em RGB_array com a cor") - imprime cor na tela inteira, idependente do que estiver nela;
+        <var tela>.blit("item a ser copiado"," posição a ser colocada") - copia cores de um elemento na tela para ser reposto exatamente como antes;
+        <nome>.display.flip() - certifica de mostrar a imagem apenas quando todo o código for lido.
+        <var larguraTela> = <var tela>.get_width() - pega a largura da tela inteira;
+        <var alturaTela> = <var tela>.get_height() - pega a alura inteira da tela inteira;
+
+coresEmRGB = {
+    "branco":(255,255,255),
+    "preto":(0,0,0),
+    "vermelho":(255,0,0),
+    "azul":(0,0,255),
+    "verde":(0,255,0),
+    "vermeloEscuro":(139,0,0),
+    "cinza":(128, 128, 128),
+    "prata":(192, 192, 192),
+    "azulEscuro":(0,0,128),
+    "amarelo":(255,255,0),
+    "aqua":(0,255,255),
+    "magenta":(255,0,255),
+    "marrom":(128,0,0),
+}
